@@ -188,7 +188,7 @@ footer p{
 }
 .foot-up{
     padding-left: 27px;
-    color: rgba(0,0,0,.54);
+    color: #5f6368;
 }
 
 .foot-down {
@@ -198,7 +198,7 @@ footer p{
 
 .footer {
     text-decoration: none;
-    color: rgba(0,0,0,.54);
+    color: #5f6368;
     font-size: 1.3rem;
     padding-left: 27px;
 }

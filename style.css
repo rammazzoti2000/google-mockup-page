@@ -52,6 +52,7 @@ border-spacing: 0;
 * {
 box-sizing: border-box;
 font-size: 65%;
+height: auto;
 }
 
 html, body {
@@ -113,7 +114,7 @@ form {
 
 .icon {
     position: absolute;
-    bottom: 12px;
+    bottom: 13px;
     height: 20px;
     width: 20px;
     font-size: 1.5rem;

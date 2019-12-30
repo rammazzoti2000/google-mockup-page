@@ -1,4 +1,4 @@
-// Is this working?
+/*Is this working?*/
 /* http://meyerweb.com/eric/tools/css/reset/
 v2.0 | 20110126
 License: none (public domain)
@@ -17,48 +17,49 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-display: block;
+    display: block;
 }
 body {
-line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-list-style: none;
+    list-style: none;
 }
 blockquote, q {
-quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-content: '';
-content: none;
+    content: '';
+    content: none;
 }
 table {
-border-collapse: collapse;
-border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-box-sizing: border-box;
-font-size: 65%;
-height: auto;
+    box-sizing: border-box;
+    height: auto;
 }
 
 html, body {
-width: 100%;
-height: 100%;
-margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 65%;
+
 }
 body {
      height: 100%;
@@ -114,7 +115,7 @@ form {
 
 .icon {
     position: absolute;
-    bottom: 13px;
+    bottom: 12px;
     height: 20px;
     width: 20px;
     font-size: 1.5rem;
@@ -148,16 +149,16 @@ input[type=text]:focus {
     justify-content: center;
 
 }
-#left, #right {
+button {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
     font-family: arial,sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin: 11px 4px;
     padding: 0 16px;
-    line-height: 27px;
+    line-height: 36px;
     height: 36px;
     min-width: 54px;
     text-align: center;
@@ -182,7 +183,8 @@ footer {
 }
 
 footer p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 40px;
 }
 .foot-up{
     padding-left: 27px;
@@ -212,11 +214,3 @@ footer p{
     float: right;
     margin-right: 30px;
 }
-
-
-
-
-
-
-
-

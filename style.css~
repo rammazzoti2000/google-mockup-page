@@ -132,11 +132,10 @@ input[type=text], select {
     font-family: arial, sans-serif;
 }
 input[type=text]:hover {
-    box-shadow: 0 1px 5px lightgray;
+    box-shadow: 0 0px 5px lightgray;
 }
 input[type=text]:focus {
-    box-shadow: 0 1px 5px lightgray;
-    outline: none;
+    box-shadow: 0 0px 5px lightgray;
 }
 
 .buttons {
